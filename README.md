@@ -1,6 +1,4 @@
 # Auto update
-Setup auto-updates for WordPress, for Bedrock.
-
 This manual describes on how to setup [WordPress' default update behaviour](https://codex.wordpress.org/Configuring_Automatic_Background_Updates) when using [trendwerk/bedrock](https://github.com/trendwerk/bedrock).
 
 ## 1. Allow file modifications
