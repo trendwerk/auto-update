@@ -24,7 +24,7 @@ Add this filter upon initialization (for example, in your theme):
 add_filter('automatic_updates_is_vcs_checkout', '__return_false');
 ```
 
-## 4. Capistrano rake task (optional)
+## 4. Capistrano rake task
 Of course, the production code will not match to VCS code if you enable updates like this. To make sure you don't revert to wrong versions when deploying with Capistrano, you could add the rake task found in this repo.
 
 Run it on before each deployment:
