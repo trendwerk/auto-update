@@ -32,3 +32,5 @@ Run it on before each deployment:
 ```ruby
 before :deploy, "deploy:confirm"
 ```
+
+_The rake task uses [fazibear/colorize](https://github.com/fazibear/colorize). To use it, include this as a dependency in your Gemfile._
