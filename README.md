@@ -12,7 +12,7 @@ define('DISALLOW_FILE_MODS', true);
 This disabled the "Editor" for themes and plugins. Add this to your configuration file:
 
 ```php
-define('DISALLOW_FILE_EDIT', true');
+define('DISALLOW_FILE_EDIT', true);
 ```
 
 ## 3. Allow updates, even when using a VCS
