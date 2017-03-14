@@ -29,6 +29,6 @@ Of course, the production code will not match to VCS code if you enable updates 
 
 Run it on before each deployment:
 
-```
+```ruby
 before :deploy, "deploy:confirm"
 ```
