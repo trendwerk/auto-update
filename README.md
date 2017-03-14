@@ -25,7 +25,7 @@ add_filter('automatic_updates_is_vcs_checkout', '__return_false');
 ```
 
 ## 4. Capistrano rake task
-Of course, the production code will not match to VCS code if you enable updates like this. To make sure you don't revert to wrong versions when deploying with Capistrano, you could add the rake task found in this repo.
+Of course, the production code will not match to the VCS's code if you enable updates like this. To make sure you don't revert to wrong versions when deploying with Capistrano, you could add the rake task found in this repo.
 
 Run it on before each deployment:
 
